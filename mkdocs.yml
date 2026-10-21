@@ -1,0 +1,14 @@
+site_name: Onboarding do Dev
+site_description: Guia de onboarding para pessoas desenvolvedoras
+repo_url: https://github.com/edtroleis/techdocs-wiki-onboarding
+edit_uri: edit/main/docs/
+nav:
+  - Boas-vindas: index.md
+  - Primeira semana:
+      - Primeiro dia: primeiro-dia.md
+      - Ambiente local: ambiente-local.md
+      - Fluxo de trabalho: fluxo-de-trabalho.md
+  - Usando o Backstage: backstage.md
+  - FAQ: faq.md
+plugins:
+  - techdocs-core

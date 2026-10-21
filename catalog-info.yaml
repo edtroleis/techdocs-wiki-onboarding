@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wiki-onboarding
+  title: Onboarding do Dev
+  description: Guia de onboarding para pessoas desenvolvedoras
+  tags: [wiki]
+  annotations:
+    github.com/project-slug: edtroleis/techdocs-wiki-onboarding
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: production
+  owner: platform-team
