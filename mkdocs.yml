@@ -1,4 +1,6 @@
 site_name: Onboarding do Dev
+# Avisos do mkdocs (links/nav quebrados) viram erro e falham o CI
+strict: true
 site_description: Guia de onboarding para pessoas desenvolvedoras
 repo_url: https://github.com/edtroleis/techdocs-wiki-onboarding
 edit_uri: edit/main/docs/
